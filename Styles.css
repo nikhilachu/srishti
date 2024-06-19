@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #22add0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #22add0;
+    padding: 10px 20px;
+    color: white;
+}
+
+.navbar-left .logo {
+    height: 40px; /* Adjust the size as needed */
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right .nav-item {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-right .nav-item i {
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.navbar-right .nav-item:hover {
+    color: orange;
+}
+.content{
+    color: white;
+}
+.rightimg{
+    width: 50px;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    position: relative;
+    width: 320px; /* Adjust as needed */
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:90px;
+    position: absolute;
+    width: 420px; 
+    top:75%;
+}
+
+.search-input {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.search-button {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 10px;
+    font-size: 16px;
+    background-color: #e80d0d;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+    width: 70px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.perh2 {
+    background-color: red;
+    width: 70px;
+    height: 80px;
+    border: none;
+    border-radius: 50%;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 74%;
+    left: 62%;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    color: white;
+}
